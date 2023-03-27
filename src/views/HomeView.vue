@@ -99,6 +99,8 @@
     </div>
     <div class="mt-4">
       Para conmebol posting con amor, Lucas Ferrario. Todos los derechos e izquierdos bien puestos
+      <br>
+      Tambien, si lo usan Bruno o Pablo en sus vivos voy a ser feliz, abrazo muchachos.
     </div>
   </div>
 </template>
