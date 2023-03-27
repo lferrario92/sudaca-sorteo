@@ -75,7 +75,10 @@
                 class="d-flex align-items-start px-2 pt-1 justify-content-between border-top"
                 :key="club.club"
               >
-                <span class="d-flex align-items-start">
+                <span
+                  class="d-flex align-items-start"
+                  :title="club.name == 'Huracan' ? '🤏' : ''"
+                >
                   <img
                     :src="getImgUrl(club.name, '.png', 'clubes')"
                     alt=""
