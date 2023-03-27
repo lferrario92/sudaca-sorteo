@@ -20,6 +20,7 @@
             v-for="club in bombo"
             class="d-flex align-items-start px-2 justify-content-between"
             :key="club.name"
+            :title="club.name == 'Huracan' ? '🤏' : ''"
           >
             <span class="d-flex align-items-start">
               <img
