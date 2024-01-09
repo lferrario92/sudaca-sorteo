@@ -1,8 +1,9 @@
 <template>
   <div class="home d-flex flex-column align-items-center">
     <h2>
-      Simulador sorteo Sudamericana 2023
+      Simulador sorteo Libertadores 2024
     </h2>
+    <p>(Cuando se definan las fases previas actualizo)</p>
     <div
       class="d-flex justify-content-center flex-wrap"
       style="max-width: 800px"
@@ -23,6 +24,7 @@
           >
             <span class="d-flex align-items-start">
               <img
+                style="max-width: 18px"
                 :src="getImgUrl(club.name, '.png', 'clubes')"
                 alt=""
                 :title="club.name == 'Huracan' ? '🤏' : ''"
@@ -78,6 +80,7 @@
                 <span class="d-flex align-items-start">
                   <img
                     :src="getImgUrl(club.name, '.png', 'clubes')"
+                    style="max-width: 18px"
                     alt=""
                     :title="club.name == 'Huracan' ? '🤏' : ''"
                   >
@@ -97,10 +100,16 @@
         loading
       </div>
     </div>
+    <div>
+      <h5 class="my-2">
+        FASE PREVIA:
+      </h5>
+      <img src="../assets/fase-previa-cuadro.jpg" alt="" style="width: 780px; max-width: 100%">
+    </div>
     <div class="mt-4">
-      Para conmebol posting con amor, Lucas Ferrario. Todos los derechos e izquierdos bien puestos
+      Para conmebol posting con amor, Lucas Ferrario. Todos los derechos e izquierdos bien puestos.
       <br>
-      Tambien, si lo usan Bruno o Pablo en sus vivos voy a ser feliz, abrazo muchachos.
+      Tambien, si lo usan Mariano, Bruno o Pablo en sus vivos voy a ser feliz, abrazo muchachos.
     </div>
   </div>
 </template>
@@ -120,6 +129,26 @@ export default {
       clubsBase: [
         [
           {
+            name: 'Fluminense',
+            country: 'BR'
+          },
+          {
+            name: 'Palmeiras',
+            country: 'BR'
+          },
+          {
+            name: 'River',
+            country: 'AR'
+          },
+          {
+            name: 'Flamengo',
+            country: 'BR'
+          },
+          {
+            name: 'Gremio',
+            country: 'BR'
+          },
+          {
             name: 'Penarol',
             country: 'UY'
           },
@@ -128,130 +157,110 @@ export default {
             country: 'BR'
           },
           {
-            name: 'Santos',
+            name: 'Liga de Quito',
+            country: 'EC'
+          }
+        ],
+        [
+          {
+            name: 'Atl. Mineiro',
             country: 'BR'
           },
           {
-            name: 'Liga Quito',
+            name: 'Ind. del Valle',
             country: 'EC'
+          },
+          {
+            name: 'Libertad',
+            country: 'PA'
+          },
+          {
+            name: 'Cerro Porteno',
+            country: 'PA'
           },
           {
             name: 'Estudiantes (LP)',
             country: 'AR'
           },
           {
-            name: 'Emelec',
+            name: 'Barcelona',
             country: 'EC'
           },
           {
-            name: 'San Lorenzo',
-            country: 'AR'
+            name: 'Bolivar',
+            country: 'BO'
           },
           {
-            name: 'Ind. Santa Fe',
+            name: 'Junior',
             country: 'CO'
           }
         ],
         [
           {
-            name: 'Def y Justicia',
+            name: 'San Lorenzo',
             country: 'AR'
           },
           {
-            name: 'Guarani (P)',
-            country: 'PA'
-          },
-          {
-            name: 'Bragantino',
-            country: 'BR'
+            name: 'The Strongest',
+            country: 'BO'
           },
           {
             name: 'Universitario (P)',
             country: 'PE'
           },
           {
-            name: 'Dep. Tolima',
-            country: 'CO'
-          },
-          {
-            name: 'Botafogo',
-            country: 'BR'
-          },
-          {
-            name: 'Newells',
-            country: 'AR'
-          },
-          {
-            name: 'Palestino',
-            country: 'CH'
-          }
-        ],
-        [
-          {
-            name: 'Oriente Petrolero',
-            country: 'BO'
-          },
-          {
-            name: 'Est. Merida',
+            name: 'Dep. Tachira',
             country: 'VE'
           },
           {
-            name: 'Danubio',
-            country: 'UY'
-          },
-          {
-            name: 'Tigre',
+            name: 'Rosario Central',
             country: 'AR'
           },
           {
-            name: 'America MG',
-            country: 'BR'
-          },
-          {
-            name: 'Blooming',
-            country: 'BO'
-          },
-          {
-            name: 'Goias',
-            country: 'BR'
-          },
-          {
-            name: 'U.C. Vallejo',
+            name: 'Alianza Lima',
             country: 'PE'
-          }
-        ],
-        [
-          {
-            name: 'Audax Italiano',
-            country: 'CH'
-          },
-          {
-            name: 'Gimnasia (LP)',
-            country: 'AR'
-          },
-          {
-            name: 'Puerto Cabello',
-            country: 'VE'
-          },
-          {
-            name: 'Tacuary',
-            country: 'PA'
           },
           {
             name: 'Millonarios',
             country: 'CO'
           },
           {
-            name: 'Huracan',
+            name: 'Talleres',
+            country: 'AR'
+          }
+        ],
+        [
+          {
+            name: 'Caracas',
+            country: 'VE'
+          },
+          {
+            name: 'Liverpool',
+            country: 'UY'
+          },
+          {
+            name: 'Huachipato',
+            country: 'CH'
+          },
+          {
+            name: 'Cobresal',
+            country: 'CH'
+          },
+          {
+            name: 'Fase Previa',
             country: 'AR'
           },
           {
-            name: 'Fortaleza',
+            name: 'Fase Previa2',
+            country: 'PE'
+          },
+          {
+            name: 'Fase Previa3',
             country: 'BR'
           },
           {
-            name: 'Magallanes',
-            country: 'CH'
+            name: 'Fase Previa4',
+            country: 'UY'
           }
         ]
       ],

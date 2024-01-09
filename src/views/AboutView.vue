@@ -11,7 +11,7 @@
     <hr>
     <p>
       Les diria que me sigan en twitter pero no pongo nada interesante, mejor sigan a 
-      <a href="https://twitter.com/SanLorencismo">Bruno</a> o a <a href="https://twitter.com/PabloLafourcade">Pablo</a>.
+      <a href="https://twitter.com/SanLorencismo">Bruno</a>, a <a href="https://twitter.com/marianodlfuente">Mariano</a>, o a <a href="https://twitter.com/PabloLafourcade">Pablo</a>.
     </p>
     <p>
       <a href="https://twitter.com/nicodeayer/status/1639668739036545029/photo/1">
