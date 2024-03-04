@@ -251,20 +251,20 @@ export default {
             country: 'CH'
           },
           {
-            name: 'Fase Previa',
-            country: 'AR'
+            name: 'Botafogo-Bragantino',
+            country: 'XX'
           },
           {
-            name: 'Fase Previa2',
-            country: 'PE'
+            name: 'Nacional (P)-Palestino',
+            country: 'XX'
           },
           {
-            name: 'Fase Previa3',
-            country: 'BR'
+            name: 'Always Ready-Nacional (U)',
+            country: 'XX'
           },
           {
-            name: 'Fase Previa4',
-            country: 'UY'
+            name: 'Sp. Trinidense-Colo colo',
+            country: 'XX'
           }
         ]
       ],
