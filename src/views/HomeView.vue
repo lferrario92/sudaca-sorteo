@@ -251,19 +251,19 @@ export default {
             country: 'CH'
           },
           {
-            name: 'Botafogo-Bragantino',
+            name: 'Botafogo',
             country: 'XX'
           },
           {
-            name: 'Nacional (P)-Palestino',
+            name: 'Palestino',
             country: 'XX'
           },
           {
-            name: 'Always Ready-Nacional (U)',
+            name: 'Nacional (U)',
             country: 'XX'
           },
           {
-            name: 'Sp. Trinidense-Colo colo',
+            name: 'Colo colo',
             country: 'XX'
           }
         ]
