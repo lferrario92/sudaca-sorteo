@@ -104,7 +104,7 @@
         loading
       </div>
     </div>
-    <div>
+    <div v-if="false">
       <h5 class="my-2">
         FASE PREVIA:
       </h5>
