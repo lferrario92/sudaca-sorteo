@@ -359,7 +359,12 @@ export default {
       return where[Math.floor(Math.random() * where.length)]
     },
     getImgUrl(img, ext, where) {
-      return require('../assets/'+where+'/'+img+ext)
+      try {
+        return require('../assets/' + where + '/' + img + ext);
+      } catch (e) {
+        // Returns null if the image doesn't exist, preventing a crash
+        return null; 
+      }
     }
   }
 }
