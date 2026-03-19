@@ -1,7 +1,7 @@
 <template>
   <div class="home d-flex flex-column align-items-center">
     <h2>
-      Simulador sorteo Libertadores 2024
+      Simulador sorteo sudamericana 2026
     </h2>
     <p>(Cuando se definan las fases previas actualizo)</p>
     <div
@@ -130,7 +130,49 @@ export default {
       retries: 0,
       loading: true,
       groups: {},
-      clubsBase: [
+  clubsBase: [
+    [
+      { "name": "River Plate", "country": "AR" },
+      { "name": "Atlético Mineiro", "country": "BR" },
+      { "name": "São Paulo", "country": "BR" },
+      { "name": "Racing", "country": "AR" },
+      { "name": "Grêmio", "country": "BR" },
+      { "name": "Olimpia", "country": "PY" },
+      { "name": "Santos", "country": "BR" },
+      { "name": "América de Cali", "country": "CO" }
+    ],
+    [
+      { "name": "San Lorenzo", "country": "AR" },
+      { "name": "Red Bull Bragantino", "country": "BR" },
+      { "name": "Palestino", "country": "CL" },
+      { "name": "Millonarios", "country": "CO" },
+      { "name": "Caracas", "country": "VE" },
+      { "name": "Vasco da Gama", "country": "BR" },
+      { "name": "Cienciano", "country": "PE" },
+      { "name": "Tigre", "country": "AR" }
+    ],
+    [
+      { "name": "Audax Italiano", "country": "CL" },
+      { "name": "Blooming", "country": "BO" },
+      { "name": "A. Puerto Cabello", "country": "VE" },
+      { "name": "Boston River", "country": "UY" },
+      { "name": "Mvd. City Torque", "country": "UY" },
+      { "name": "Deportivo Cuenca", "country": "EC" },
+      { "name": "Independiente", "country": "CO" },
+      { "name": "Macará", "country": "EC" }
+    ],
+    [
+      { "name": "Alianza Atlético", "country": "PE" },
+      { "name": "Barracas Central", "country": "AR" },
+      { "name": "Deportivo Riestra", "country": "AR" },
+      { "name": "Recoleta", "country": "CL" },
+      { "name": "Juventud", "country": "UY" },
+      { "name": "O'Higgins", "country": "CL" },
+      { "name": "Carabobo", "country": "VE" },
+      { "name": "Botafogo", "country": "BR" }
+    ]
+  ],
+      clubsBase2: [
         [
           {
             name: 'Fluminense',
